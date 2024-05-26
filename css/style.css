@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    user-select: none;
+    text-decoration: none;
+    list-style-type: none;
+}
+.container{
+    max-width: 1700px;
+    height: max-content;
+}
+.header,.footer{
+    width: 100%;
+}
+.header{
+    display: flex;
+    z-index: 1;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0%;
+    height: 100px;
+    background-color: rgb(245, 176, 39);
+}
+.header p{
+    color: rgb(75, 47, 30);
+}
+.title{
+    text-transform: capitalize;
+    font-family: title;
+    margin: 26px 0 0 75px;
+    font-size: 36pt;
+}
+.navigation{
+    font-family: nav;
+    max-width: 1200px;
+    height: 105px;
+    display: flex;
+    align-items: center;
+}
+.nBlock{
+    margin-left: 40px;
+    text-align: center;
+    width: 200px;
+    font-size: 18pt;
+    text-transform: capitalize;
+}
+.main{
+    width: 100%;
+    height: max-content;
+}
+.footer{
+    z-index: 2;
+    background-color: rgb(39, 27, 20);
+    height: 300px;
+}
+.footerBlock{
+    color: rgb(255, 237, 227);
+     max-width: 1700px;
+     padding: 50px 0 0 75px;
+     height: 300px;
+}
+.name{
+    margin-bottom: 40px;
+}
+.name p{
+    color: rgb(255, 237, 227);
+    width: 1800px;
+    font-family: title;
+    text-transform: capitalize;
+    font-size: 36pt;
+}
+.footNav{
+    font-family: nav;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+}
+.catalogFoot{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -80px;
+}
+.info{
+    margin-left: 150px;
+}
+.info p{
+    font-size: 18pt;
+    padding-top: 7px;
+    color: rgb(255, 237, 227);
+}
+.contacts{
+    margin-top: -100px;
+    font-size: 25pt;
+    letter-spacing: 3px;
+}
+@font-face {
+    font-family: title;
+    src: url(../font/MESY-GUAKO.ttf);
+}@font-face{
+    font-family: nav;
+    src: url(../font/calibri.ttf);
+}
+
