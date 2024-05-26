@@ -1,0 +1,79 @@
+.mainSlide{
+    margin-top: 20px;
+    overflow: hidden;
+    width: 1500px;
+    height: 500px;
+}
+.sliderLine{
+    transition: all 3s ease 0s;
+    display: flex;
+    position: relative;
+    left: 0;
+}
+.btn{    
+    text-align: center;
+    margin: 20px auto;
+}
+.btnLeft,.btnRight{
+    width: 50px;
+    height: 50px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(245, 176, 39);
+    border-radius: 100%;
+    font-size: 20pt;
+    font-family: nav;
+}
+.whAreWe{
+    width: 90%;
+    height: max-content;
+}
+.titleAdvant{
+    font-size: 50pt;
+    font-family: title;
+    margin: 25px 0 0 25px;
+}
+.advant{
+    color: rgb(114, 75, 62);
+    max-width: 1500px;;
+    height: 370px;
+}
+.textAdvant{
+    position: relative;
+    margin-left: 25%;
+    bottom: 57%;
+}
+.textAdvant b{
+    font-size: 32pt;
+    font-family: title;
+}
+.textAdvant p{
+    margin-top: 20px;
+    font-size: 21pt;
+    font-family: nav;
+}
+.img1,.img2,.img3,.img4,.img5{
+    transform:translate(-50%,-50%);
+    position: relative;
+    left: -30%;
+    top: 50%;
+    /*background-color: aqua;*/
+    width: 300px;
+    height: 300px;
+    background-size: 100% 100%;
+    background-position: center;
+}
+.img1{
+    background-image: url("https://fitnesshock.ru/upload/resize_cache/iblock/64d/620_420_1/57vors0zptv9o2tppotw8ry2xa3w9m96.jpg");
+}
+.img2{
+    background-image: url("https://fitnesshock.ru/upload/resize_cache/iblock/af0/620_420_1/nkjvaj9xtj4s71qugwhhn4elm8s95lo5.jpg");
+}
+.img3{
+    background-image: url("https://cdn1.ozone.ru/s3/multimedia-1-4/6918637216.jpg");
+}
+.img4{
+    background-image: url("https://avatars.dzeninfra.ru/get-zen_doc/3412021/pub_62e7c8c95a569977f7e0bc36_62e7c9fc40c0494db8e4a06c/scale_1200");
+}
+.img5{
+    background-image: url("https://fitnesshock.ru/upload/resize_cache/iblock/900/620_420_1/2tggdtl17vd6ulruie706f66f16psa0p.jpg");
+}
