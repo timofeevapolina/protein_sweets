@@ -1,0 +1,77 @@
+.pageTitle{
+    max-width: 1700px;
+    height: 200px;
+    background-color: antiquewhite;
+    padding: 30px 100px;
+}
+.pageTitle p{
+    text-transform: capitalize;
+    font-family: title;
+    font-size: 90pt;
+}
+.catalog{
+    width: 90%;
+    height: max-content;
+}
+.prodLine{
+    margin: 150px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.product{
+    width: 450px;
+    height: 600px;
+    color: rgb(114, 75, 62);
+}
+.inf{
+    color: rgb(114, 75, 62);
+    margin-top: 50px;
+    text-align: center;
+    font-size: 24pt;
+    font-family: nav;
+}
+.img1,.img2,.img3,.img4,.img5,.img6,.img7,.img8,.img9{
+    width: 450px;
+    height: 450px;
+    margin-bottom: 20px;
+    background-color: bisque;
+    background-size: 100% 135%;
+    background-position: center;
+    margin-bottom: 30px; 
+}
+.img1{
+    background-image: url(http://fitnesshock.ru/upload/iblock/cf2/1orqhm9mo5w14dr6uar1vjt2avnjab4v.jpg);
+}
+.img2{
+    background-image: url(http://fitnesshock.ru/upload/iblock/7c4/asa9dztmwm3rbxzrvrrsq6vasud9z34q.png);
+}
+.img3{
+    background-image: url(http://fitnesshock.ru/upload/iblock/525/b7kom2izpx428ojws8ib113i913tdg2j.png);
+}
+.img4{
+    background-image: url(http://fitnesshock.ru/upload/iblock/7ed/x5hp1q7ysb7os52xbjubgzzise83bvds.png);
+}
+.img5{
+    background-image: url(http://fitnesshock.ru/upload/iblock/97b/uq350muxx2y6m0mvexorec5wmf21y4dm.png);
+}
+.img6{
+    background-image: url(http://fitnesshock.ru/upload/iblock/51d/w11une2gn8cus6lcnr5gnd2w0j6d0ly3.jpg);
+}
+.img7{
+    background-image: url(http://fitnesshock.ru/upload/iblock/cb3/59fz1su77uz721j1lp5q220b3d5aeypx.jpg);
+}
+.img8{
+    background-image: url(http://fitnesshock.ru/upload/iblock/8b5/xphgv8jkjevb00luue42450szisokp3o.jpg);
+}
+.img9{
+    background-image: url(http://fitnesshock.ru/upload/iblock/d09/8uoo8dvsxqlub8detr9cfdziax807ahe.jpg);
+} 
+.product b{
+    font-family: nav;
+    font-size: 28pt;
+    text-transform: capitalize;
+}
+.product p{
+    font-family: nav;
+    font-size: 18pt
+}
